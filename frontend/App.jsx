@@ -6,7 +6,7 @@ import {
 import { TrendingUp, TrendingDown, RefreshCw, AlertCircle, Cpu, BarChart2 } from "lucide-react";
 
 // ── Config ────────────────────────────────────────────────────────────── //
-const API_BASE = import.meta.env.VITE_API_URL || "https://stock-forecast-xgh3.onrender.com";
+const API_BASE = import.meta.env.VITE_API_URL || "";
 
 const POPULAR = [
   { symbol: "AAPL", name: "Apple" },
